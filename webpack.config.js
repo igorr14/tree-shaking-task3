@@ -3,7 +3,6 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  mode: "production",
   entry: "./src/task3.js",
   output: {
     filename: "[name].bundle.js",
